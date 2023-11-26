@@ -1,0 +1,14 @@
+<div class="side-bar">
+    <div id="close-btn" (click)="toggleNavbar">
+      <i class="fas fa-times"></i>
+    </div>
+    <div class="logo">
+        <img src="../../assets/logo.png" alt="">
+    </div>
+  
+    <div class="profile current-user-acount-details"></div>
+  
+    <nav class="navbar">
+      <a href="" *ngFor="let link of manu"><i [class]="link.icon"></i><span>{{link.name}}</span></a>
+    </nav>
+  </div>
