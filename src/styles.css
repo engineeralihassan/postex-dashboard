@@ -311,7 +311,6 @@ section {
 .side-bar.active {
   left: -30rem;
 }
-/* quick options style */
 .heading {
   font-size: 2.5rem;
   color: var(--black);
@@ -476,19 +475,5 @@ section {
   .home-grid .box-container {
     grid-template-columns: 1fr;
   }
+}
 
-  .about .row .image img {
-    height: 25rem;
-  }
-}
-.submite-message {
-  min-height: calc(100vh - 20rem);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--white);
-  border-radius: 0.5rem;
-  padding: 2rem;
-  width: 50rem;
-  display: none;
-}
